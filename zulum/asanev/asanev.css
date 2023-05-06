@@ -1,0 +1,57 @@
+body {
+  width: 1000px;
+  margin: auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  color: grey;
+ background-color: grey;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background: white
+}
+
+section {
+  display: block;
+  float: left;
+  width: 500px;
+  height: 270px;
+  overflow: hidden;
+}
+
+aside {
+  display: block;
+  float: right;
+  width: 40%;
+  height: 270px;
+  overflow: hidden;
+}
+
+article {
+  padding: 10px;
+  color: white
+  background: grey
+}
+
+.asan {
+  clear: both;
+}
+
+h1,
+p {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  color: grey;
+  text-align: center;
+  background: white
+}
